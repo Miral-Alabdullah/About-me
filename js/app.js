@@ -68,7 +68,7 @@ function clicking(){
     }  
     let userName = prompt('Can you please tell me what is your name?');
     alert('Well Hello ' + userName + '!! I am so glad to meet you');
-    let Q6 = prompt('Have you enjpyed the game?');
+    let Q6 = prompt('Have you enjoyed the game?');
     switch(Q6.toLowerCase())
     {
         case 'yes':
