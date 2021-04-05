@@ -54,7 +54,7 @@ main h3 {
 img {
     width: 30%;
     margin-left: 36%;
-    margin-top: 2%;
+    margin-top: 1%;
 }
 footer{
     background-color: rgba(5,14,29,255);
@@ -64,4 +64,8 @@ footer p {
     color: #b3754b;
     text-align: center;
     padding-top: 10%;
+}
+#section{
+    width: 30%;
+    margin-left: 35%;
 }
