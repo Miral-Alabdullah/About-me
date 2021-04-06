@@ -1,18 +1,28 @@
 'use strict';
 
 function clicking(){
-    let Q1 = prompt('I have a favorite color, and I like most of its shades. Do you think it is green?');
+
+
+    let score = 0;
+    let userName = prompt('Can you please tell me what is your name?');
+    alert('Hello ' + userName + '!! I am so glad to meet you, we are gonna have so much fun!!');
+    confirm('Okay ' + userName + ', there is a fun game about me, you have to answer some questions. Are you ready? Well, let\'s get started!!');
+    let Q1 = prompt('Do you think I am enjoying this scholarship?');
     switch(Q1.toLowerCase())
     {
         case 'yes':
         case 'y':
-            //console.log('No! can\'t you see the website? it is RED! ^_^');
-            alert('No! can\'t you see the website? it is RED! ^_^');
+            //console.log('It is a little bit hard but yes, I am enjoying it');
+            alert('It is a little bit hard but yes, I am enjoying it');
+            score++;
+            console.log(score);
             break;
         case 'no':
         case 'n':
-            //console.log('Correct! My favorite is red. You pay attention to details!! You\'re awesome');
-            alert('Correct! My favorite is red. You pay attention to details!! You\'re awesome');
+            //console.log('Wrong!');
+            alert('Wrong!');
+        default:
+            alert('Dude!!');
     }
     let Q2 = prompt('I prefer CSS rather than Javascript');
     switch(Q2.toLowerCase())
@@ -24,8 +34,10 @@ function clicking(){
             break;
         case 'no':
         case 'n':
+            score++;
+            console.log(score);
             //console.log('RIGHT!!');
-            alert('RIGHT!!');
+            alert('RIGHT!!');  
     }
     let Q3 = prompt('I like watching TV shows and my favorite one is Supernatural, Yes or No?');
     switch(Q3.toLowerCase())
@@ -34,6 +46,8 @@ function clicking(){
         case 'y':
             //console.log('CORRECT! it\'s my favorite');
             alert('CORRECT! it\'s my favorite');
+            score++;
+            console.log(score);
             break;
         case 'no':
         case 'n':
@@ -47,6 +61,7 @@ function clicking(){
         case 'y':
             //console.log('I love writing!');
             alert('I love writing!');
+            score++;
             break;
         case 'no':
         case 'n':
@@ -65,21 +80,61 @@ function clicking(){
         case 'n':
             //console.log('You nailed it');
             alert('You nailed it');
+            score++;
+            console.log(score);
     }  
-    let userName = prompt('Can you please tell me what is your name?');
-    alert('Well Hello ' + userName + '!! I am so glad to meet you');
-    let Q6 = prompt('Have you enjoyed the game?');
-    switch(Q6.toLowerCase())
-    {
-        case 'yes':
-        case 'y':
-            //console.log('I am so happy to know that ' + userName + ', I would like to get to know you as well');
-            alert('I am so happy to know that ' + userName + ', I would like to get to know you as well');
-            break;
-        case 'no':
-        case 'n':
-            //console.log('Sorry to know that ' + userName + 'I will try my best next time!!');
-            alert('Sorry to know that ' + userName + 'I will try my best next time!!');
-    } 
 
+
+    let favColors = ['red',  'blue', 'black'];
+    let y = false;
+    let Q7 = prompt('Can you guess my favorites colors?');
+    for (let i=0; i<6; i++){
+        for (let j=0; j<favColors.length; j++){
+            if(Q7.toLowerCase() === favColors[j]){
+                alert('That is Right!');
+                score++;
+                console.log(score);
+                y = true;
+            }
+        }
+     if(y){
+        break;
+    }
+    Q7 = prompt('Can you guess my favorites colors?');
 }
+
+
+
+    
+    let a = 3;
+    for (let i = 0; i<4; i++){
+        var Q6 = prompt('As I mentioned before Supernatural is my favorite TV show, How many times do you think I have re-watched it?');
+        if(parseInt(Q6)>a){
+            console.log('Too High!');
+            alert('Too High!');
+    }   else if (parseInt(Q6)<a){
+            console.log('Too Low!');
+            alert('Too Low!');
+    }   else if (parseInt(Q6) === a){
+        alert('Correct!')
+        score++;
+        console.log(score);
+        break;
+    } 
+    }
+       if (parseInt(Q6) !== a ){
+           alert('Sorry! The right answer is ' + a);
+    
+
+
+    alert('Sorry! you reached your limits!');
+
+ } 
+
+ alert('your score is ' + score +' out of 7!');
+ alert('I hope you enjoyed this game, because I did!!, Thank you ' + userName + ' for visiting my website!' );
+
+
+}  
+
+    

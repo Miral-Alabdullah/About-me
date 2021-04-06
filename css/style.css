@@ -36,24 +36,23 @@ main h3 {
 }
 #styling {
     text-align: center;
-    color: #b80f15;
+    color: #b3754b;
     font-size: 25px;
-    padding-top: 5%;
+    padding-top: 4%;
 }
 .center{
     display: inline-block;
-    text-align: center;
     color: #b3754b;
     border: 1px solid #b80f15;
     margin-top: 5%;
     width: 50%;
-    font-size: 30px;
+    font-size: 25px;
     margin-left: 25%;
 }
 
 img {
     width: 30%;
-    margin-left: 35%;
+    margin-left: 35.2%;
     margin-top: 1%;
 }
 footer{
