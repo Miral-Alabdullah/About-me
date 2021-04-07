@@ -106,27 +106,7 @@ q2 ();
     q5 () ;
 
 
-
-    let favColors = ['red',  'blue', 'black'];
-    let y = false;
-    let Q7 = prompt('Can you guess my favorite colors?');
-    for (let i=0; i<5; i++){
-        for (let j=0; j<favColors.length; j++){
-            if(Q7.toLowerCase() === favColors[j]){
-                alert('That is Right!');
-                score++;
-                console.log(score);
-                y = true;
-            }
-        }
-     if(y){
-        break;      
-    }
-      
-    }
-
-
-    
+    function q6 (){
     let a = 3;
     for (let i = 0; i<4; i++){
         var Q6 = prompt('As I mentioned before Supernatural is my favorite TV show, How many times do you think I have re-watched it?');
@@ -151,9 +131,33 @@ q2 ();
     alert('Sorry! you reached your limits!');
 
  } 
+  }
+  q6() ;
+
+
+
+ let favColors = ['red',  'blue', 'black'];
+    let y = false;
+    let Q7 = prompt('Can you guess my favorite colors?');
+    for (let i=0; i<5; i++){
+        for (let j=0; j<favColors.length; j++){
+            if(Q7.toLowerCase() === favColors[j]){
+                alert('That is Right!');
+                score++;
+                console.log(score);
+                y = true;
+            }
+        }
+     if(y){
+        break;      
+    }
+      
+    }
+
 
  alert('your score is ' + score +' out of 7!');
  alert('I hope you enjoyed this game, because I did!!, Thank you ' + userName + ' for visiting my website!' );
+
 
 
 }  
