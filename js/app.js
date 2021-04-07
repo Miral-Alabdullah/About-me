@@ -70,7 +70,7 @@ q2 ();
     q3() ;
 
 
-    // function q4 (){
+    function q4 (){
     let Q4 = prompt('Writing is one of my favorite hobbies. What do you think?');
     switch(Q4.toLowerCase())
     {
@@ -84,7 +84,10 @@ q2 ();
         case 'n':
             //console.log('Well, sorry but it\'s wrong');
             alert('Well, sorry but it\'s wrong');
-    }
+    } }
+    q4();
+
+
     let Q5 = prompt('I love reading!!');
     switch(Q5.toLowerCase())
     {
@@ -100,6 +103,7 @@ q2 ();
             score++;
             console.log(score);
     }  
+
 
 
     let favColors = ['red',  'blue', 'black'];
