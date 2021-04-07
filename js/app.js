@@ -135,7 +135,7 @@ q2 ();
   q6() ;
 
 
-
+  function q7 (){
  let favColors = ['red',  'blue', 'black'];
     let y = false;
     let Q7 = prompt('Can you guess my favorite colors?');
@@ -153,7 +153,8 @@ q2 ();
     }
       
     }
-
+}
+  q7();
 
  alert('your score is ' + score +' out of 7!');
  alert('I hope you enjoyed this game, because I did!!, Thank you ' + userName + ' for visiting my website!' );
