@@ -88,7 +88,7 @@ function clicking(){
     let favColors = ['red',  'blue', 'black'];
     let y = false;
     let Q7 = prompt('Can you guess my favorites colors?');
-    for (let i=0; i<6; i++){
+    for (let i=0; i<5; i++){
         for (let j=0; j<favColors.length; j++){
             if(Q7.toLowerCase() === favColors[j]){
                 alert('That is Right!');
