@@ -31,7 +31,7 @@ function clicking(){
  q1 ();
 
 
-//  function q2 (){
+ function q2 (){
     let Q2 = prompt('I prefer CSS rather than Javascript');
     switch(Q2.toLowerCase())
     {
@@ -47,8 +47,8 @@ function clicking(){
             //console.log('RIGHT!!');
             alert('RIGHT!!');  
     }
-// }
-// q2 ();
+}
+q2 ();
 
 //    function q3 (){
     let Q3 = prompt('I like watching TV shows and my favorite one is Supernatural, Yes or No?');
