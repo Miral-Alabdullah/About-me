@@ -50,7 +50,7 @@ function clicking(){
 }
 q2 ();
 
-//    function q3 (){
+   function q3 (){
     let Q3 = prompt('I like watching TV shows and my favorite one is Supernatural, Yes or No?');
     switch(Q3.toLowerCase())
     {
@@ -66,8 +66,8 @@ q2 ();
             //console.log('Unfortunately, you\'re wrong!');
             alert('Unfortunately, you\'re wrong!');
     }
-// }
-    // q3() ;
+}
+    q3() ;
 
 
     // function q4 (){
