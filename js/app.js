@@ -4,6 +4,8 @@ function clicking(){
 
 
     let score = 0;
+
+    function q1 (){
     let userName = prompt('Can you please tell me what is your name?');
     alert('Hello ' + userName + '!! I am so glad to meet you, we are gonna have so much fun!!');
     confirm('Okay ' + userName + ', there is a fun game about me, you have to answer some questions. Are you ready? Well, let\'s get started!!');
@@ -24,6 +26,12 @@ function clicking(){
         default:
             alert('Dude!!');
     }
+
+}
+ q1 ();
+
+
+//  function q2 (){
     let Q2 = prompt('I prefer CSS rather than Javascript');
     switch(Q2.toLowerCase())
     {
@@ -39,6 +47,10 @@ function clicking(){
             //console.log('RIGHT!!');
             alert('RIGHT!!');  
     }
+// }
+// q2 ();
+
+//    function q3 (){
     let Q3 = prompt('I like watching TV shows and my favorite one is Supernatural, Yes or No?');
     switch(Q3.toLowerCase())
     {
@@ -54,6 +66,11 @@ function clicking(){
             //console.log('Unfortunately, you\'re wrong!');
             alert('Unfortunately, you\'re wrong!');
     }
+// }
+    // q3() ;
+
+
+    // function q4 (){
     let Q4 = prompt('Writing is one of my favorite hobbies. What do you think?');
     switch(Q4.toLowerCase())
     {
