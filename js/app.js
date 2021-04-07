@@ -87,7 +87,7 @@ q2 ();
     } }
     q4();
 
-
+    function q5 (){
     let Q5 = prompt('I love reading!!');
     switch(Q5.toLowerCase())
     {
@@ -102,7 +102,8 @@ q2 ();
             alert('You nailed it');
             score++;
             console.log(score);
-    }  
+    }  }
+    q5 () ;
 
 
 
