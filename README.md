@@ -17,8 +17,23 @@
 * The applied style is created with the CSS.
 * The pop-up interaction boxes were build using JavaScript.
 
+<hr>
+
+## Pair programming details :
+
+* Maram was the driver .
+
+* Miral was the navigator .
+
+* I forked Miral's About-me Repositery .
+
+* And we grouped each question to be inside afunction .
+
+<hr>
+
 
 
 *Author: Miral Al Abdullah*
+
 
 
