@@ -14,14 +14,12 @@ function clicking(){
     {
         case 'yes':
         case 'y':
-            //console.log('It is a little bit hard but yes, I am enjoying it');
             alert('It is a little bit hard but yes, I am enjoying it');
             score++;
             console.log(score);
             break;
         case 'no':
         case 'n':
-            //console.log('Wrong!');
             alert('Wrong!');
         default:
             alert('Dude!!');
@@ -37,14 +35,11 @@ function clicking(){
     {
         case 'yes':
         case 'y':
-            //console.log('NO I don\'t like it at all :(');
             alert('NO I don\'t like it at all :(');
             break;
         case 'no':
         case 'n':
             score++;
-            console.log(score);
-            //console.log('RIGHT!!');
             alert('RIGHT!!');  
     }
 }
@@ -56,14 +51,11 @@ q2 ();
     {
         case 'yes':
         case 'y':
-            //console.log('CORRECT! it\'s my favorite');
             alert('CORRECT! it\'s my favorite');
             score++;
-            console.log(score);
             break;
         case 'no':
         case 'n':
-            //console.log('Unfortunately, you\'re wrong!');
             alert('Unfortunately, you\'re wrong!');
     }
 }
@@ -76,13 +68,11 @@ q2 ();
     {
         case 'yes':
         case 'y':
-            //console.log('I love writing!');
             alert('I love writing!');
             score++;
             break;
         case 'no':
         case 'n':
-            //console.log('Well, sorry but it\'s wrong');
             alert('Well, sorry but it\'s wrong');
     } }
     q4();
@@ -93,15 +83,12 @@ q2 ();
     {
         case 'yes':
         case 'y':
-            //console.log('I DON\'T like reading at all!);
             alert('I DON\'T like reading at all!');
             break;
         case 'no':
         case 'n':
-            //console.log('You nailed it');
             alert('You nailed it');
             score++;
-            console.log(score);
     }  }
     q5 () ;
 
@@ -119,7 +106,6 @@ q2 ();
     }   else if (parseInt(Q6) === a){
         alert('Correct!')
         score++;
-        console.log(score);
         break;
     } 
     }
@@ -144,7 +130,6 @@ q2 ();
             if(Q7.toLowerCase() === favColors[j]){
                 alert('That is Right!');
                 score++;
-                console.log(score);
                 y = true;
             }
         }
